@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    border: solid;
+    
+}
+.navitems{
+    display: flex;     
+   flex-direction: row;
+   flex-wrap: wrap; 
+   width: 850px;
+   position: relative;
+   left: 330px;
+   justify-content: space-between;
+   border: solid;
+}
+img[alt="prime-video"]{
+    height: 19px;
+    width: 105px;
+    position: relative;
+    top: 13px;
+    left: 270px;
+    background-color: black;
+}
+img[alt="user"]{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: 3px;
+}
+.navlist{
+    color: #AAAAAA;
+   font-size: 18px;
+   background-color: black; 
+   cursor: pointer;
+   border: none;
+}
+#serchicon{
+    padding: 10px;
+    position: absolute;
+    left: 520px;
+    color: #AAAAAA;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+}
+#search{
+    width: 40px; 
+    position: relative;
+    left: 40px;
+    background-color: black;
+}
+#home
+{
+    width: 80px;
+    font-size: 18px;
+}
+#store{
+    width: 80px;
+}
+#category{
+    width: 120px;
+}
+#sub{
+    width: 120px;
+   padding-top: 10px ;
+   text-align: center;
+   position: relative ;
+   left: 25px;
+   font-size: 20px;
+}
+#en{
+width: 60px;
+font-size: 17px;
+position: relative;
+left: 10px;
+top: 2px;
+}
+.div1{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #000000, #000000, #000000, #000000, #000000, #000000cb, #53515100, #67656500, #8a898900, #b0afaf00, #d7d6d700, #ffffff00), url(../../assets/MLP\ \(1\).jpg);
+    background-size: cover;
+    border: solid black;
+    background-position: top;
+}
+.div1content{
+    height: 40vh;
+    width: 640px;
+    color: white;
+    margin: 40px;
+    border: solid black 1px ; 
+}
+.innertext{
+    margin-bottom: 39px;
+}
+#div1button{
+    padding: 13px;
+    width: 280px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    background-color: #0f79af;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.div2{
+    height: 70vh;
+    width: 100%;
+    background-image:linear-gradient(to right, #000000, #000000, #000000, #000000, #000000, #000000cb, #53515137, #67656500, #8a898900, #b0afaf00, #d7d6d700, #ffffff00), url(../../assets/primebackground2.jpg);
+    background-size: cover;
+    border: solid black 1px;
+}
+.div2content{
+    border: solid black 1px;
+    height: 500px;
+    width: 550px;
+    margin: 40px;
+}
+.inner2text{
+   
+    color: white;
+    margin-bottom: 40px;
+}
+#rentbutton{
+    padding: 13px;
+    width: 280px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    background-color: #0f79af;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.div3{
+    margin-top: -25px;
+    height: 630px;
+    width: 100%;
+    border:white solid ;
+    display: flex;
+    justify-content:space-evenly;
+}
+.div3text{
+    height: 500px;
+    width: 600px;
+    border: solid white;
+}
+.imgdiv{
+    width: 672px;
+    height: 622px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.images{
+    height: 150px;
+    width: 220px;
+    transition-duration: 10ms;
+}
+.images:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 1px 1px 10px 2px black;
+}
+.div4{
+    
+    text-align: center;
+    height: 130px;
+    background-color: #000000;
+  
+}
+#fottertext{
+   border: solid;
+   display: flex;
+   list-style-type: none;
+   justify-content: space-around ;
+   margin-top: 30px;
+   color: #79B8F3;
+   padding-bottom: 15px;
+   border: none; 
+   font-weight: bold;
+   cursor: pointer;
+}
+#fottertext2{
+    color: #8197a4;
+}
+img[alt="primefotter"]{
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+#fottertext12{
+    position: relative;
+    left: 390px;
+}
+#fottertext13{
+    position: relative;
+    left: 10px;
+}
+#fottertext14{
+    position: relative;
+    left: -370px;
+}
